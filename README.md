@@ -1,73 +1,122 @@
-# Welcome to your Lovable project
+# Daksh Sharma - Portfolio Website
 
-## Project info
+## Student Information
+- **Name:** Daksh Sharma
+- **Roll Number:** 23EJICS035
+- **Institution:** JIET, Jodhpur
+- **Course:** B.Tech in Computer Science & Engineering
 
-**URL**: https://lovable.dev/projects/104f451c-1490-4861-83a8-e9b120c02f35
+## Project Overview
+A modern, responsive portfolio website showcasing my projects, skills, and achievements. Built with cutting-edge web technologies and featuring smooth animations, dark/light theme toggle, and a clean, professional design.
 
-## How can I edit this code?
+## Technologies Used
 
-There are several ways of editing your application.
+### Frontend Framework
+- **React** - JavaScript library for building user interfaces
+- **TypeScript** - Type-safe JavaScript for better development experience
+- **Vite** - Fast build tool and development server
 
-**Use Lovable**
+### UI & Styling
+- **TailwindCSS** - Utility-first CSS framework for rapid UI development
+- **shadcn/ui** - Modern UI components built with Radix UI and Tailwind CSS
+- **Lucide React** - Beautiful & customizable SVG icons
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/104f451c-1490-4861-83a8-e9b120c02f35) and start prompting.
+### Routing & Navigation
+- **React Router** - Declarative routing for React applications
 
-Changes made via Lovable will be committed automatically to this repo.
+### Development Tools
+- **ESLint** - Code linting and formatting
+- **PostCSS** - CSS post-processing
+- **Autoprefixer** - Automatic vendor prefixing
 
-**Use your preferred IDE**
+## Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Core Pages
+- **Home** - Hero section with typing animation and social links
+- **About** - Personal introduction and core values
+- **Projects** - Showcase of major projects with filtering
+- **Skills** - Technical skills, education, and certifications
+- **Blog** - Insights on AI, technology, and learning journey
+- **Contact** - Contact form and information
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Interactive Elements
+- Smooth animations and transitions
+- Typing animation on homepage
+- Hover effects and micro-interactions
+- Responsive design for all devices
+- Clean and modern UI/UX
 
-Follow these steps:
+### Project Highlights
+- **Smart Traffic Control System** - AI-powered traffic optimization (SIH 2024 Runner-up)
+- **RAG-based Financial Report Processor** - LLM-powered document analysis
+- **AI-Powered Chatbot** - Multi-modal AI assistant with STT/TTS
+- **Library Management System** - Secure web application with PHP/MySQL
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Technical Skills Demonstrated
+- **Programming Languages:** Python, JavaScript, TypeScript, C++, PHP
+- **AI/ML Technologies:** PyTorch, OpenCV, Hugging Face, Computer Vision
+- **Web Technologies:** React, HTML, CSS, MongoDB, MySQL
+- **Development Tools:** Git, Docker, Linux
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Achievements
+- 🏆 Smart India Hackathon 2024 - Runner-up
+- 🎯 LNMHACKS 7.0 2025 - Participant
+- 📚 Multiple NPTEL and Infosys Springboard certifications
+- 💻 5+ completed projects across AI/ML and web development
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Installation & Setup
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### Local Development
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to project directory
+cd portfolio-website
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
+```
+src/
+├── components/ui/          # Reusable UI components
+├── pages/                  # Main application pages
+│   ├── Home.tsx           # Homepage with hero section
+│   ├── About.tsx          # About page
+│   ├── Projects.tsx       # Projects showcase
+│   ├── Skills.tsx         # Skills and education
+│   ├── Blog.tsx           # Blog posts
+│   └── Contact.tsx        # Contact form
+├── lib/                   # Utility functions
+└── styles/                # Global styles and themes
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
+This project can be deployed on various platforms:
+- **Vercel** (Current hosting platform)[https://daksh-ai-portfolio-verse.vercel.app/]
+- **Netlify**
+- **GitHub Pages**
+- **Lovable** 
 
-**Use GitHub Codespaces**
+## Future Enhancements
+- Blog functionality with CMS integration
+- Performance optimization
+- Additional project case studies
+- Interactive skill demonstrations
+- Multi-language support
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/104f451c-1490-4861-83a8-e9b120c02f35) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Built with ❤️ by Daksh Sharma - Aspiring AI Engineer & Full-Stack Developer*
