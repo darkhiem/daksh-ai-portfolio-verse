@@ -105,7 +105,7 @@ src/
 
 ## Deployment
 This project can be deployed on various platforms:
-- **Vercel** (Current hosting platform)[https://daksh-ai-portfolio-verse.vercel.app/]
+- [**Vercel**](https://daksh-ai-portfolio-verse.vercel.app/) (Current hosting platform)
 - **Netlify**
 - **GitHub Pages**
 - **Lovable** 
