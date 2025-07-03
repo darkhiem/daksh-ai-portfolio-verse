@@ -8,8 +8,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Smart Traffic Control System",
-      description: "Real-Time Traffic Control using Computer Vision and AI that analyzes traffic patterns and optimizes signal timing. Winner of Smart India Hackathon 2024 Runner-up position.",
-      technologies: ["Python", "OpenCV", "PyTorch", "Computer Vision", "AI"],
+      description: "Real-Time Traffic Control System using Computer Vision & AI (RL, RNN) that analyzes traffic patterns and optimizes signal timing. Developed as part of Smart India Hackathon 2024.",
+      technologies: ["Python", "OpenCV", "PyTorch", "Computer Vision", "RL", "RNN"],
       category: "AI/Computer Vision",
       status: "Completed",
       achievement: "Smart India Hackathon 2024 - Runner-up",
@@ -23,9 +23,9 @@ const Projects = () => {
       ]
     },
     {
-      title: "RAG-based Financial Report Processor",
-      description: "Innovative financial report processing system using Claude LLM & Google Drive Connector for automated analysis and insights generation.",
-      technologies: ["Python", "Claude LLM", "Google Drive API", "RAG", "NLP"],
+      title: "RAG-based Financial Report Processor", 
+      description: "Built a tool using RAG Pipelines, Claude LLM & Google Pathway to extract insights from financial documents. Developed during LNMHACKS 7.0 at LNMIIT, Jaipur.",
+      technologies: ["Python", "Claude LLM", "Google Pathway", "RAG", "NLP"],
       category: "Generative AI",
       status: "Completed",
       achievement: "LNMHACKS 7.0 2025 - Participant",
@@ -39,8 +39,8 @@ const Projects = () => {
       ]
     },
     {
-      title: "AI-Powered Multi-Modal Chatbot",
-      description: "Comprehensive chatbot with Speech-to-Text, Text-to-Speech, and Text-to-Image capabilities using Gemini API, Streamlit, and Hugging Face models.",
+      title: "AI-Powered Chatbot with STT, TTS & Text-to-Image",
+      description: "Integrated Google's Gemini API with Streamlit UI for dynamic interaction. Used MongoDB for chat history and Hugging Face + PyTorch for smooth AI responses.",
       technologies: ["Python", "Gemini API", "Streamlit", "MongoDB", "Hugging Face"],
       category: "Full-Stack AI",
       status: "Completed",
@@ -55,8 +55,8 @@ const Projects = () => {
       ]
     },
     {
-      title: "Library Management System",
-      description: "Complete web-based library management solution with user authentication, book cataloging, and automated fine calculation.",
+      title: "Library Management System", 
+      description: "Created a secure, session-based web app using PHP & MySQL. Focused on authentication, real-time book management, and SQL injection protection.",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       category: "Web Development",
       status: "Completed",

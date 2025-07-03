@@ -8,19 +8,19 @@ const Skills = () => {
       degree: "B.Tech in Computer Science & Engineering",
       institution: "JIET, Jodhpur",
       grade: "8.5 CGPA",
-      year: "2022-2026",
+      year: "2022-2026 (4th Sem)",
       status: "Pursuing"
     },
     {
       degree: "Class 12 (PCM)",
-      institution: "High School",
+      institution: "Vidya Sagar Sr. Sec. School, Jaipur",
       grade: "83.4%",
       year: "2022",
       status: "Completed"
     },
     {
       degree: "Class 10",
-      institution: "High School",
+      institution: "Bhartiya Vidya Bhavan's Vidyashram, Jaipur", 
       grade: "90.6%",
       year: "2020",
       status: "Completed"
@@ -29,28 +29,31 @@ const Skills = () => {
 
   const technicalSkills = {
     "Programming Languages": ["C", "C++", "Python", "Java", "JavaScript", "PHP"],
-    "Tools & Technologies": ["MongoDB", "MySQL", "Docker", "Git", "Linux"],
-    "AI/ML Libraries": ["NumPy", "Pandas", "OpenCV", "PyTorch", "Hugging Face"],
-    "Web Technologies": ["HTML", "CSS", "React", "Node.js", "RESTful APIs"],
-    "Frameworks": ["Streamlit", "Flask", "TailwindCSS"]
+    "AI/ML Tools": ["NumPy", "Pandas", "Matplotlib", "OpenCV", "PyTorch", "Hugging Face"],
+    "Web & Database": ["MongoDB", "MySQL", "PHP", "JavaScript", "HTML", "CSS"],
+    "DevOps & Tools": ["Docker", "Git", "Linux"],
+    "Frameworks": ["Streamlit", "React", "TailwindCSS"]
   };
 
   const softSkills = [
-    "Problem Solving",
-    "Team Leadership",
+    "Teamwork",
+    "Creativity", 
+    "Problem-Solving",
     "Attention to Detail",
-    "Critical Thinking",
+    "Resourcefulness",
     "Communication",
-    "Project Management",
-    "Research & Analysis",
-    "Innovation"
+    "Time Management",
+    "Rapid Prototyping"
   ];
 
   const certifications = [
     "Smart India Hackathon 2024 - Runner-up",
     "LNMHACKS 7.0 2025 - Participant",
-    "Data Structures & Algorithms",
-    "Machine Learning Fundamentals"
+    "NPTEL: Programming in Modern C++",
+    "NPTEL: DSA using Python", 
+    "NPTEL: Database Management Systems",
+    "Infosys Springboard: C Programming",
+    "Infosys Springboard: Introduction to Java"
   ];
 
   return (

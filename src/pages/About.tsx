@@ -39,25 +39,24 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Hi! I'm Daksh Sharma, a passionate Computer Science & Engineering student at JIET, Jodhpur, 
-                with a strong focus on applying cutting-edge technology to solve real-world business challenges.
+                Hi! I'm Daksh Sharma, an Engineering student at JIET, Jodhpur (B.Tech in Computer Science & Engineering, 8.5 CGPA till 3rd Sem), 
+                with a deep interest in Generative AI, Computer Vision, and Software Development.
               </p>
               
               <p>
-                My journey in technology is driven by an insatiable curiosity for Generative AI and Computer Vision. 
-                I believe in the power of practical learning and hands-on experience, which has led me to participate 
-                in numerous hackathons and build innovative projects.
+                I'm passionate about applying technology to solve real-world problems and thrive on building innovative projects. 
+                My approach combines practical learning with hands-on experience, which has led me to participate in hackathons 
+                like Smart India Hackathon 2024 where I was a runner-up.
               </p>
               
               <p>
-                What sets me apart is my ability to bridge the gap between complex technical concepts and practical 
-                business applications. I'm constantly exploring how emerging technologies can create meaningful impact 
-                and drive innovation in various industries.
+                What drives me is the excitement of turning complex technical concepts into practical solutions that make a real difference. 
+                I believe in continuous learning and enjoy tackling challenges that push the boundaries of what's possible with technology.
               </p>
               
               <p>
-                When I'm not coding or working on projects, you'll find me researching the latest developments in AI, 
-                contributing to open-source projects, or mentoring fellow students in their technology journey.
+                When I'm not coding, you'll find me exploring the latest developments in AI, working on personal projects, 
+                or collaborating with fellow developers to create something amazing.
               </p>
             </div>
 
@@ -65,36 +64,36 @@ const About = () => {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Card className="border-primary/20">
                 <CardContent className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">Innovation</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Teamwork</h3>
                   <p className="text-sm text-muted-foreground">
-                    Always seeking creative solutions to complex problems
+                    Collaborative approach to problem-solving and project development
                   </p>
                 </CardContent>
               </Card>
               
               <Card className="border-primary/20">
                 <CardContent className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">Excellence</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Creativity</h3>
                   <p className="text-sm text-muted-foreground">
-                    Committed to delivering high-quality work and continuous improvement
+                    Innovative thinking to create unique solutions
                   </p>
                 </CardContent>
               </Card>
               
               <Card className="border-primary/20">
                 <CardContent className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">Collaboration</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Problem-Solving</h3>
                   <p className="text-sm text-muted-foreground">
-                    Believing in the power of teamwork and knowledge sharing
+                    Analytical approach to breaking down complex challenges
                   </p>
                 </CardContent>
               </Card>
               
               <Card className="border-primary/20">
                 <CardContent className="p-4">
-                  <h3 className="font-semibold text-foreground mb-2">Impact</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Resourcefulness</h3>
                   <p className="text-sm text-muted-foreground">
-                    Focused on creating technology that makes a real difference
+                    Ability to find creative solutions with available resources
                   </p>
                 </CardContent>
               </Card>
