@@ -13,8 +13,7 @@ const Projects = () => {
       category: "AI/Computer Vision",
       status: "Completed",
       achievement: "Smart India Hackathon 2024 - Runner-up",
-      demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/A-TomMarvoloRiddle/Fluxion",
       features: [
         "Real-time traffic density analysis",
         "Intelligent signal timing optimization",
@@ -29,8 +28,7 @@ const Projects = () => {
       category: "Generative AI",
       status: "Completed",
       achievement: "LNMHACKS 7.0 2025 - Participant",
-      demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/darkhiem/RAG-LLM-using-AI-Pipeline-with-streamlit-interface",
       features: [
         "Automated report parsing",
         "Intelligent data extraction",
@@ -45,8 +43,7 @@ const Projects = () => {
       category: "Full-Stack AI",
       status: "Completed",
       achievement: "Featured Project",
-      demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/darkhiem/Gen-AI-Chatbot",
       features: [
         "Multi-modal interaction",
         "Real-time voice processing",
@@ -61,8 +58,7 @@ const Projects = () => {
       category: "Web Development",
       status: "Completed",
       achievement: "Academic Project",
-      demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/darkhiem/Library-Management-System",
       features: [
         "User authentication system",
         "Book inventory management",
@@ -77,8 +73,7 @@ const Projects = () => {
       category: "Web Development",
       status: "Completed",
       achievement: "Current Project",
-      demoLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/darkhiem/daksh-ai-portfolio-verse",
       features: [
         "Responsive design",
         "Dark/light theme toggle",
@@ -188,13 +183,11 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-4">
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Live Demo
-                  </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <Github className="w-4 h-4 mr-2" />
-                    Source Code
+                  <Button variant="outline" size="sm" className="flex-1" asChild>
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-2" />
+                      Source Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -211,7 +204,7 @@ const Projects = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-primary">2</span>
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">Hackathons Won</h3>
+                <h3 className="font-semibold text-foreground mb-2">Hackathons Participated</h3>
                 <p className="text-muted-foreground text-sm">
                   Smart India Hackathon 2024 Runner-up and LNMHACKS 7.0 2025 participant
                 </p>

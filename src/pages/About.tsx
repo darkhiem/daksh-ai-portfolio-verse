@@ -19,9 +19,7 @@ const About = () => {
           {/* Image Section */}
           <div className="slide-up">
             <div className="relative">
-              <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 rounded-2xl flex items-center justify-center text-4xl font-bold text-gray-400 dark:text-gray-600">
-                Profile Photo
-              </div>
+              
               {/* Replace with actual image */}
               { <img 
                 src="/profile.jpg" 

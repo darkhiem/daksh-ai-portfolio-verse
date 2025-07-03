@@ -53,10 +53,11 @@ const Home = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                
-                <Button variant="outline" className="px-8 py-3 text-lg" onClick={() => window.open('#', '_blank')}>
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume
+                <Button asChild variant="outline" className="px-8 py-3 text-lg">
+                  <a href="/resume.pdf" download>
+                    <Download className="mr-2 h-5 w-5" />
+                    Download Resume
+                  </a>
                 </Button>
               </div>
 
@@ -79,9 +80,7 @@ const Home = () => {
                 
                 {/* Profile image placeholder */}
                 <div className="relative w-80 h-80 mx-auto">
-                  <div className="w-full h-full bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center text-6xl font-bold text-gray-400 dark:text-gray-600">
-                    DS
-                  </div>
+                  
                   {/* You can replace this with an actual image */}
                   {<img 
                     src="/profile.jpg" 
@@ -116,7 +115,7 @@ const Home = () => {
             </div>
             <div className="fade-in" style={{ animationDelay: '0.4s' }}>
               <h3 className="text-3xl font-bold text-primary">2</h3>
-              <p className="text-muted-foreground">Hackathons Won</p>
+              <p className="text-muted-foreground">Hackathons Participated</p>
             </div>
             <div className="fade-in" style={{ animationDelay: '0.6s' }}>
               <h3 className="text-3xl font-bold text-primary">10+</h3>
