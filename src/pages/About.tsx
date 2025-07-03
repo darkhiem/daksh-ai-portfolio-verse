@@ -23,11 +23,11 @@ const About = () => {
                 Profile Photo
               </div>
               {/* Replace with actual image */}
-              {/* <img 
-                src="/path-to-full-photo.jpg" 
+              { <img 
+                src="/profile.jpg" 
                 alt="Daksh Sharma" 
                 className="w-full h-96 object-cover rounded-2xl"
-              /> */}
+              />}
             </div>
           </div>
 

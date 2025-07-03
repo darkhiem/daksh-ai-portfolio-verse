@@ -83,11 +83,11 @@ const Home = () => {
                     DS
                   </div>
                   {/* You can replace this with an actual image */}
-                  {/* <img 
-                    src="/path-to-daksh-photo.jpg" 
+                  {<img 
+                    src="/profile.jpg" 
                     alt="Daksh Sharma" 
                     className="w-full h-full object-cover rounded-full"
-                  /> */}
+                  />}
                 </div>
               </div>
               
